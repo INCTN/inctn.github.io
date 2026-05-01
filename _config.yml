@@ -1,31 +1,23 @@
-# ----
-# Site
-
-title: INCN
-url: "https://www.incn.it"
+title: INCTN
+url: "https://inctn.it"
 baseurl: ""
-#"/incn"
 google_analytics_key: ""
 google_maps_javascript_api_key:
 disqus_shortname:
-#<!--"https://INCNgit.github.io/incn"-->
-# Values for the jekyll-seo-tag gem (http://github.com/jekyll/jekyll-seo-tag)
+
 logo: /siteicon.png
-description: #App marketing template for Jekyll.
+description: "Website of the Italian Network for Computational and Theoretical Neuroscience."
+
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: INCTN
+  email: info@inctn.it
+  twitter:
+
 social:
-  name: #Frisco Template
-  links:
-    #- http://github.com/CloudCannon/frisco-jekyll-template
+  name: INCTN
+  links: []
 
-# -----
-# Build
-
-timezone: Etc/UTC
-
+timezone: Europe/Rome
 permalink: pretty
 
 plugins:
