@@ -60,7 +60,7 @@ defaults:
         image:
           width: 2000
           height: 1322
-          resize_style: coverosso chiederti un favore?
+          resize_style: cover
         content:
           width: 1500
           height: 2000
