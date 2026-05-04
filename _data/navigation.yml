@@ -1,18 +1,14 @@
 - name: Home
   link: /
-- name: Registration
-  link: /registration/
-- name: Speakers
-  link: /speakers/
-- name: Program
-  link: /program/
-- name: Venue
-  link: /venue/
-- name: Organizers
-  link: /organizers/
+
 - name: INCTN Society
   link: /society/
-- name: INCN 2024
+
+- name: INCTN 2024
   link: /past_editions/
-#- name: Contact
-#  link: /contact/
+
+- name: INCTN 2025
+  link: /inctn2025/
+
+- name: Registration
+  link: /registration/
