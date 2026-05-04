@@ -50,44 +50,84 @@ image: /images/INCN2024/background/padova-prato-della-valle-hd.jpg
     }
 }
 
+.form-link {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.form-link a {
+    font-size: 1.5em;
+    color: #FF4500; 
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #f0f0f0; 
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.form-link a:hover {
+    background-color: #ff6347; 
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+#submission::before {
+    content: "";
+    display: block;
+    height: 80px;
+    margin-top: -80px;
+    visibility: hidden;
+}
+
 </style>
+
 
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
     <div class="inner-hero text-container">
         <div class="hero-text-container">
-            <h1 class="editable">INCTN 2025</h1>
+            <h1 class="editable">INCN 2024</h1>
             <p class="subtext editable" style="text-align: center;">
-                September 22–24, 2025 · Palazzo della Salute, Padova, Italy
+                September 23–25, 2024 · Istituto Superiore di Sanità, Rome, Italy
             </p>
         </div>
     </div>
-
+    
     <div class="learn-more">
-        <a href="#Speakers">Speakers ▼</a>
+        <a href="#Speakers">Speakers &#x25BC;</a>
+        <a href="#Organizers">Organizers &#x25BC;</a>
+        <a href="#Sponsors">Sponsors &#x25BC;</a>
     </div>
-
 </section>
+
 
 <div class="content">
 
+    <!-- MACROTOPICS -->
     <section class="info">
         <div class="container flex">
             <div class="text">
-                <div class="abstract-title">3 Main Topics:</div>
-                <p>
-                Theoretical Neuroscience, Computational Neuroscience, Systems Neuroscience
-                </p>
+                <div class="abstract-title">6 Macro-topics:</div>
+                <ul>
+                    <li>Computational neuroimaging</li>
+                    <li>Neural network modeling</li>
+                    <li>Biophysical modeling & digital twins</li>
+                    <li>Computational cognitive neuroscience</li>
+                    <li>Neuroscience & AI</li>
+                    <li>Neuroengineering & Brain Computer Interface</li>
+                </ul>
             </div>
         </div>
     </section>
 
+    <!-- SPEAKERS -->
     <section class="info" id="Speakers">
         <div class="container flex">
             <div class="text">
 
-                <h2>Invited Speakers</h2>
-
-                <div class="abstract-title">Keynote Speakers:</div>
+                <h2 class="editable">Keynote Speakers</h2>
                 <ul>
                     <li>Andrea Brovelli (Aix-Marseille University, France)</li>
                     <li>Wolfgang Maass (Graz University of Technology, Austria)</li>
@@ -95,28 +135,59 @@ image: /images/INCN2024/background/padova-prato-della-valle-hd.jpg
                     <li>Luca Mazzucato (University of Oregon, USA)</li>
                 </ul>
 
-                <div class="abstract-title">Speakers:</div>
+                <h2 class="editable">Invited Speakers</h2>
                 <ul>
-                    <li>Atzori, Manfredo (University of Padova, Italy)</li>
-                    <li>Avanzini, Pietro (CNR, Parma, Italy)</li>
-                    <li>Bellantuono, Loredana (University of Bari, Italy)</li>
-                    <li>Buendia, Victor (Bocconi University, Italy)</li>
-                    <li>Carabelli, Valentina (University of Torino, Italy)</li>
-                    <li>Casellato, Claudia (University of Pavia, Italy)</li>
-                    <li>Ferrari, Ambra (University of Trento, Italy)</li>
-                    <li>Fracasso, Alessio (University of Padova, Italy)</li>
-                    <li>Gili, Tommaso (IMT Lucca, Italy)</li>
-                    <li>Gozzi, Alessandro (IIT Rovereto, Italy)</li>
-                    <li>Maggioni, Eleonora (Politecnico di Milano, Italy)</li>
-                    <li>Martinoia, Sergio (University of Genova, Italy)</li>
-                    <li>Mastrogiuseppe, Francesca (Champalimaud Foundation, Portugal)</li>
-                    <li>Menegatti, Emanuele (University of Padova, Italy)</li>
-                    <li>Piasini, Eugenio (SISSA, Italy)</li>
-                    <li>Proietti, Tommaso (Scuola Sant’Anna, Italy)</li>
-                    <li>Testolin, Alberto (University of Padova, Italy)</li>
-                    <li>Torcini, Alessandro (CY Cergy Paris Université, France)</li>
-                    <li>Treves, Alessandro (SISSA, Italy)</li>
+                    <li>Manfredo Atzori (University of Padova, Italy)</li>
+                    <li>Pietro Avanzini (CNR Parma, Italy)</li>
+                    <li>Loredana Bellantuono (University of Bari, Italy)</li>
+                    <li>Victor Buendia (Bocconi University, Italy)</li>
+                    <li>Valentina Carabelli (University of Torino, Italy)</li>
+                    <li>Claudia Casellato (University of Pavia, Italy)</li>
+                    <li>Ambra Ferrari (University of Trento, Italy)</li>
+                    <li>Alessio Fracasso (University of Padova, Italy)</li>
+                    <li>Tommaso Gili (IMT Lucca, Italy)</li>
+                    <li>Alessandro Gozzi (IIT Rovereto, Italy)</li>
+                    <li>Eleonora Maggioni (Politecnico di Milano, Italy)</li>
+                    <li>Sergio Martinoia (University of Genova, Italy)</li>
+                    <li>Francesca Mastrogiuseppe (Champalimaud Foundation, Portugal)</li>
+                    <li>Emanuele Menegatti (University of Padova, Italy)</li>
+                    <li>Eugenio Piasini (SISSA, Italy)</li>
+                    <li>Tommaso Proietti (Sant’Anna School, Italy)</li>
+                    <li>Alberto Testolin (University of Padova, Italy)</li>
+                    <li>Alessandro Torcini (CY Cergy Paris Université, France)</li>
+                    <li>Alessandro Treves (SISSA, Italy)</li>
                 </ul>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ORGANIZERS -->
+    <section class="info" id="Organizers">
+        <div class="container flex">
+            <div class="text">
+                <h2 class="editable">Chair Organizers</h2>
+                <ul>
+                    <li>Michele Allegra (UniPD, Padova)</li>
+                    <li>Alessandra Bertoldo (UniPD, Padova)</li>
+                    <li>Samir Suweis (UniPD, Padova)</li>
+                    <li>Marco Zorzi (UniPD, Padova)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SPONSORS -->
+    <section class="info" id="Sponsors">
+        <div class="container flex">
+            <div class="text">
+                <h2 class="editable">Sponsors</h2>
+
+                <div class="sponsor-logos">
+                    <img src="{{ site.baseurl }}/images/loghi/logo_unipd.jpg" alt="University of Padua">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="{{ site.baseurl }}/images/loghi/logo_PNC_red.svg" alt="Padova Neuroscience Center">
+                </div>
 
             </div>
         </div>
