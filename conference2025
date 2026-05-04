@@ -1,7 +1,7 @@
 ---
 title: Registration
 description: Registration to the conference.
-image: /images/INCN2024/background/Rome_cityscape_AleMattia.jpg
+image: /images/INCN2024/background/padova-prato-della-valle-hd.jpg
 ---
 
 <style>
@@ -92,9 +92,9 @@ image: /images/INCN2024/background/Rome_cityscape_AleMattia.jpg
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1 class="editable">INCN 2024 </h1>
+			<h1 class="editable">INCN 2025 </h1>
 			<p class="subtext editable" style="text-align: center;">
-				September 23–25, 2024 ·  · Istituto Superiore di Sanità, Rome, Italy
+				September 23–25, 2025 · Palazzo della Ragione, Padova, Italy
 			 </p>
 		</div>
 	</div>
@@ -115,7 +115,14 @@ image: /images/INCN2024/background/Rome_cityscape_AleMattia.jpg
 			<div class="text">
 				<div class="abstract-title">6 Macro-topics:</div>
 				<p class="editable">
-				Cognitive Neuroscience, Computational Neuroscience, Mathematical Neuroscience, Neuroengineering, Statistical Physics, Systems Neuroscience 
+                <ul>
+                    <li>Computational neuroimaging</li>
+                    <li>Neural network modeling</li>
+                    <li>Biophysical modeling & digital twins</li>
+                    <li>Computational cognitive neuroscience</li>
+                    <li>Neuroscience & AI</li>
+                    <li>Neuroengineering & Brain Computer Interface</li>
+                </ul>
 				</p>
 			</div>
 		</div>
@@ -128,44 +135,36 @@ image: /images/INCN2024/background/Rome_cityscape_AleMattia.jpg
 
 				<div class="abstract-title">Keynote SPEAKERS:</div>
 				<p class="editable"> 
-					Stefano Fusi, Stefano Panzeri, and Valerio Mante.
+					<ul>
+                    <li>Andrea Brovelli (Aix-Marseille University, France)</li>
+                    <li>Wolfgang Maass (Graz University of Technology, Austria)</li>
+                    <li>Simona Cocco (ENS, CNRS, Sorbonne Université)</li>
+                    <li>Luca Mazzucato (University of Oregon, USA)</li>
+					<ul>
 				</p>
 
 				<div class="abstract-title">SPEAKERS:</div>
 				<p class="editable"> 
 					<ul>
-					<li> Agliari, Elena (Sapienza U., Roma) </li>
-					<li> Barra, Adriano (Sapienza U., Roma) </li>
-					<li> Brunel, Nicolas (Duke & Bocconi U., Milano) </li>
-					<li> Burioni, Raffaella (UniPR, Parma) </li>
-					<li> Chiappalone, Michela (UniGE, Genova) </li>
-					<li> D'Angelo, Egidio U. (UniPV, Pavia) </li>
-					<li> De Arcangelis, Lucilla (UniNA2, Napoli) </li>
-					<li> Fellin, Tommaso (IIT, Genova) </li>
-					<li> Ferraina, Stefano (Sapienza U., Roma) </li>
-					<li> Fusi, Stefano (Columbia U., New York, USA) </li>
-					<li> Giugliano, Michele (UniMORE, Modena) </li>
-					<li> Goldt, Sebastian (SISSA, Trieste) </li>
-					<li> Marinari, Enzo (Sapiena U., Roma) </li>
-					<li> Massobrio, Paolo (UniGE, Genova) </li>
-					<li> Mattia, Maurizio (ISS, Roma) </li>
-					<li> Mazzoni, Alberto (SSSA, Pisa) </li>
-					<li> Migliore, Michele (CNR, Palermo) </li>
-					<li> Olmi, Simona (CNR, Firenze) </li>
-					<li> Panzeri, Stefano (UKE, Hamburg) </li>
-					<li> Paolucci, Pier S. (INFN, Roma) </li>
-					<li> Pedrocchi, Alessandra (PoliMI, Milano) </li>
-					<li> Pezzulo, Giovanni (CNR, Roma) </li>
-					<li> Ricci-Tersenghi, Federico (Sapienza U., Roma) </li>
-					<li> Russo, Eleonora (SSSA, Pisa) </li>
-					<li> Sacerdote, Laura L. (Torino U., Torino) </li>
-					<li> Sanzeni, Alessandro (Bocconi U., Milano) </li>
-					<li> Scarpetta, Silvia (UniSA, Salerno) </li>
-					<li> Suweis, Samir (UniPD, Padova) </li>
-					<li> Mante, Valerio (ETH, Zurigo, Switzerland) </li>
-					<li> Zecchina, Riccardo (Bocconi U., Milano) </li>
-					<li> Zoccolan, Davide (SISSA, Trieste) </li>
-					<li> Zorzi, Marco (UniPD, Padova)</li>
+                    <li>Manfredo Atzori (University of Padova, Italy)</li>
+                    <li>Pietro Avanzini (CNR Parma, Italy)</li>
+                    <li>Loredana Bellantuono (University of Bari, Italy)</li>
+                    <li>Victor Buendia (Bocconi University, Italy)</li>
+                    <li>Valentina Carabelli (University of Torino, Italy)</li>
+                    <li>Claudia Casellato (University of Pavia, Italy)</li>
+                    <li>Ambra Ferrari (University of Trento, Italy)</li>
+                    <li>Alessio Fracasso (University of Padova, Italy)</li>
+                    <li>Tommaso Gili (IMT Lucca, Italy)</li>
+                    <li>Alessandro Gozzi (IIT Rovereto, Italy)</li>
+                    <li>Eleonora Maggioni (Politecnico di Milano, Italy)</li>
+                    <li>Sergio Martinoia (University of Genova, Italy)</li>
+                    <li>Francesca Mastrogiuseppe (Champalimaud Foundation, Portugal)</li>
+                    <li>Emanuele Menegatti (University of Padova, Italy)</li>
+                    <li>Eugenio Piasini (SISSA, Italy)</li>
+                    <li>Tommaso Proietti (Sant’Anna School, Italy)</li>
+                    <li>Alberto Testolin (University of Padova, Italy)</li>
+                    <li>Alessandro Torcini (CY Cergy Paris Université, France)</li>
+                    <li>Alessandro Treves (SISSA, Italy)</li>
 					</ul>
 				</p>
 
