@@ -1,0 +1,208 @@
+---
+title: Registration
+description: Registration to the conference.
+image: /images/INCN2024/background/Rome_cityscape_AleMattia.jpg
+---
+
+<style>
+
+.abstract-title {
+    font-size: 1.6em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.learn-more {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+	flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.learn-more a {
+    font-size: 22px;
+    padding: 8px 16px;
+    min-width: 120px;
+    display: inline-block;
+    color: #fff;
+    /*text-decoration: none;*/
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    transition: color 0.3s ease;
+    white-space: nowrap;
+}
+
+.learn-more a:hover {
+    color: #ffa74d;
+}
+
+@media screen and (max-width: 768px) {
+    .learn-more {
+        display: none;
+    }
+}
+
+.form-link {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.form-link a {
+    font-size: 1.5em;
+    color: #FF4500; 
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #f0f0f0; 
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.form-link a:hover {
+    background-color: #ff6347; 
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+#submission::before {
+    content: "";
+    display: block;
+    height: 80px;
+    margin-top: -80px;
+    visibility: hidden;
+}
+
+
+
+</style>
+
+
+
+<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1 class="editable">INCN 2024 </h1>
+			<p class="subtext editable" style="text-align: center;">
+				September 23–25, 2024 ·  · Istituto Superiore di Sanità, Rome, Italy
+			 </p>
+		</div>
+	</div>
+	
+	<div class="learn-more">
+		<a href="#Speakers"><span class="highlight">Speakers </span><span class="arrow">&#x25BC;</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#Organizers"><span class="highlight">Organizers </span><span class="arrow">&#x25BC;</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#Sponsors"><span class="highlight">Sponsors </span><span class="arrow">&#x25BC;</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+	</div>
+	
+
+</section>
+
+<div class="content">
+	
+	<section class="info" id="Speakers">
+		<div class="container flex">
+			<div class="text">
+				<div class="abstract-title">6 Macro-topics:</div>
+				<p class="editable">
+				Cognitive Neuroscience, Computational Neuroscience, Mathematical Neuroscience, Neuroengineering, Statistical Physics, Systems Neuroscience 
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="info" id="Speakers">
+		<div class="container flex">
+			<div class="text">
+				<h2 class="editable">List of the Invited Speakers</h2>
+
+				<div class="abstract-title">Keynote SPEAKERS:</div>
+				<p class="editable"> 
+					Stefano Fusi, Stefano Panzeri, and Valerio Mante.
+				</p>
+
+				<div class="abstract-title">SPEAKERS:</div>
+				<p class="editable"> 
+					<ul>
+					<li> Agliari, Elena (Sapienza U., Roma) </li>
+					<li> Barra, Adriano (Sapienza U., Roma) </li>
+					<li> Brunel, Nicolas (Duke & Bocconi U., Milano) </li>
+					<li> Burioni, Raffaella (UniPR, Parma) </li>
+					<li> Chiappalone, Michela (UniGE, Genova) </li>
+					<li> D'Angelo, Egidio U. (UniPV, Pavia) </li>
+					<li> De Arcangelis, Lucilla (UniNA2, Napoli) </li>
+					<li> Fellin, Tommaso (IIT, Genova) </li>
+					<li> Ferraina, Stefano (Sapienza U., Roma) </li>
+					<li> Fusi, Stefano (Columbia U., New York, USA) </li>
+					<li> Giugliano, Michele (UniMORE, Modena) </li>
+					<li> Goldt, Sebastian (SISSA, Trieste) </li>
+					<li> Marinari, Enzo (Sapiena U., Roma) </li>
+					<li> Massobrio, Paolo (UniGE, Genova) </li>
+					<li> Mattia, Maurizio (ISS, Roma) </li>
+					<li> Mazzoni, Alberto (SSSA, Pisa) </li>
+					<li> Migliore, Michele (CNR, Palermo) </li>
+					<li> Olmi, Simona (CNR, Firenze) </li>
+					<li> Panzeri, Stefano (UKE, Hamburg) </li>
+					<li> Paolucci, Pier S. (INFN, Roma) </li>
+					<li> Pedrocchi, Alessandra (PoliMI, Milano) </li>
+					<li> Pezzulo, Giovanni (CNR, Roma) </li>
+					<li> Ricci-Tersenghi, Federico (Sapienza U., Roma) </li>
+					<li> Russo, Eleonora (SSSA, Pisa) </li>
+					<li> Sacerdote, Laura L. (Torino U., Torino) </li>
+					<li> Sanzeni, Alessandro (Bocconi U., Milano) </li>
+					<li> Scarpetta, Silvia (UniSA, Salerno) </li>
+					<li> Suweis, Samir (UniPD, Padova) </li>
+					<li> Mante, Valerio (ETH, Zurigo, Switzerland) </li>
+					<li> Zecchina, Riccardo (Bocconi U., Milano) </li>
+					<li> Zoccolan, Davide (SISSA, Trieste) </li>
+					<li> Zorzi, Marco (UniPD, Padova)</li>
+					</ul>
+				</p>
+
+			</div>
+		</div>
+	</section>
+
+
+	<section class="info" id="Organizers">
+		<div class="container flex">
+			<div class="text">
+				<h2 class="editable">Chair Organizers</h2>
+				<p class="editable"> 
+				<ul>
+					<li>Nicolas Brunel (Duke & Bocconi U., Milano)</li>
+					<li>Sergio Martinoia (UniGE, Genova)</li>
+					<li>Paolo Massobrio (UniGE, Genova)</li>
+					<li>Maurizio Mattia (ISS, Roma)</li>
+					
+				</ul></p>
+			</div>
+		</div>
+	</section>
+
+	<section class="info" id="Sponsors">
+		<div class="container flex">
+			<div class="text">
+				<h2 class="editable">Sponsors</h2>
+
+				<div class="sponsor-logos">
+			
+				<img src="{{ site.baseurl }}/images/INCN2024/loghi.png" alt=" ">
+
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+</div>
